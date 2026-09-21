@@ -27,6 +27,8 @@
 
 **Panel - VPS** is a lightweight, standalone control panel for managing multi-protocol proxy configs on **Katabump** containers and Linux VPS.
 
+> 🆓 Designed especially for **Katabump free servers**.
+
 Built for speed, clean UI, and easy one-file deployment.
 
 | Feature | Description |
@@ -72,7 +74,7 @@ Open that link in your browser — the panel is online.
 
 ### ♾️ Unlimited (Auto Renew on Katabump)
 
-Katabump free servers usually need **Renew** every ~4 days.  
+This panel works great on **Katabump free servers**. Those free servers usually need **Renew** every ~4 days.  
 You can automate this with **GitHub Actions**.
 
 #### Codes to copy
@@ -143,6 +145,8 @@ After that it runs every **3 days** automatically.
 
 **Panel - VPS** یک پنل سبک و یک‌فایلی برای مدیریت کانفیگ‌های پروکسی روی سرورهای **Katabump** و VPS لینوکس است.
 
+> 🆓 مخصوص **سرور رایگان کاتابامپ** طراحی شده.
+
 ظاهر شیشه‌ای، سریع، مناسب موبایل و دسکتاپ.
 
 | قابلیت | توضیح |
@@ -188,7 +192,7 @@ http://IP_سرور:پورت/parham-confing
 
 ### ♾️ نامحدود کردن (تمدید خودکار Katabump)
 
-سرورهای رایگان کاتابامپ معمولاً هر حدود **۴ روز** نیاز به **Renew** دارند.  
+این پنل برای **سرور رایگان کاتابامپ** مناسب است. سرورهای رایگان معمولاً هر حدود **۴ روز** نیاز به **Renew** دارند.  
 با **GitHub Actions** می‌توانید تمدید را خودکار کنید.
 
 #### کدها برای کپی
