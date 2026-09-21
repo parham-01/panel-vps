@@ -240,11 +240,7 @@ http://IP_سرور:پورت/parham-confing
 | `renew.py` | `renew.py` |
 | `renew.yml` | `.github/workflows/renew.yml` |
 
-یعنی:
-1. تو ریپوی جدید یک فایل به اسم **renew.py** بسازید
-2. یک پوشه به اسم **.github** بسازید
-3. داخلش پوشه **workflows** بسازید
-4. داخل workflows فایل **renew.yml** را بسازید
+
 
 #### ✅ توضیح مراحل به صورت آسون
 **مرحله ۱ — ریپوی جدید**  
