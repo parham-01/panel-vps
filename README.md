@@ -74,32 +74,58 @@ Open that link in your browser — the panel is online.
 
 ### ♾️ Unlimited (Auto Renew on Katabump)
 
-This panel works great on **Katabump free servers**. Those free servers usually need **Renew** every ~4 days.  
-You can automate this with **GitHub Actions**.
+This panel is made for **Katabump free servers**.  
+Free servers usually need **Renew** about every 4 days. You can automate it with GitHub Actions.
 
-#### Codes to copy
-📄 **[Auto-Renew-Guide.txt](Auto-Renew-Guide.txt)**  
-Open the file → copy each section into its own file (file name is written above each code).
+#### 📄 Where are the codes?
+Open this file and copy from there:
 
-#### Quick steps
-1. Create a **new GitHub repo**
-2. Create **two files** and paste the codes from the guide:
-   - `renew.py` → repo root
-   - `.github/workflows/renew.yml`
-3. Add these **Secrets** (Settings → Secrets → Actions):
+**[Auto-Renew-Guide.txt](Auto-Renew-Guide.txt)**
 
-| Secret | What to put |
-|--------|-------------|
-| `KATABUMP_EMAIL` | Your Katabump email |
+Above each code you will see the **exact file name**.
+
+#### 📂 Files you must create
+
+| File name | Full path in the new repo |
+|-----------|---------------------------|
+| `renew.py` | `renew.py` |
+| `renew.yml` | `.github/workflows/renew.yml` |
+
+Meaning:
+1. In the new repo, create a file named **renew.py** (next to README if you have one)
+2. Create folder **.github**
+3. Inside it create folder **workflows**
+4. Inside workflows create file **renew.yml**
+
+#### ✅ Step by step
+
+**Step 1 — New repository**  
+Create a new repo on GitHub (can be private).
+
+**Step 2 — File renew.py**  
+Create `renew.py` → open Auto-Renew-Guide.txt → copy the code under `renew.py` → paste and save.
+
+**Step 3 — File renew.yml**  
+Create path `.github/workflows/renew.yml` → copy the code under that name from the guide → paste and save.
+
+**Step 4 — Secrets (very important)**  
+Go to: **Settings → Secrets and variables → Actions → New repository secret**
+
+Add these three one by one:
+
+| Secret name | What you type |
+|-------------|----------------|
+| `KATABUMP_EMAIL` | Your Katabump login email |
 | `KATABUMP_PASSWORD` | Your Katabump password |
-| `SERVER_ID` | Server ID from the server page URL |
+| `SERVER_ID` | Server ID from the server page URL on Katabump |
 
-4. Go to **Actions** → **Run workflow** once to test
+**Step 5 — Test once**  
+Open **Actions** tab → select **Parham Confing Auto Renew** → **Run workflow**.
 
-After that it runs every **3 days** automatically.
+If it works, it will run automatically every **3 days**.
 
-#### Katabump panel
-🌐 **https://control.katabump.com**
+#### 🌐 Katabump website
+https://control.katabump.com
 
 ---
 
@@ -125,15 +151,20 @@ After that it runs every **3 days** automatically.
 
 ---
 
-### 📣 Telegram Channel
+### 📣 Telegram
 
 <p align="center">
   <a href="https://t.me/parham_ste01">
-    <img src="https://img.shields.io/badge/Telegram-Parham_01-blue?style=for-the-badge&logo=telegram" alt="Telegram">
+    <img src="https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram" alt="Channel">
+  </a>
+  &nbsp;
+  <a href="https://t.me/+SchgZ4s1dGU4N2Y0">
+    <img src="https://img.shields.io/badge/Telegram-Group-blue?style=for-the-badge&logo=telegram" alt="Group">
   </a>
 </p>
 
-**Channel:** [https://t.me/parham_ste01](https://t.me/parham_ste01)
+**Channel:** [https://t.me/parham_ste01](https://t.me/parham_ste01)  
+**Group:** [https://t.me/+SchgZ4s1dGU4N2Y0](https://t.me/+SchgZ4s1dGU4N2Y0)
 
 ---
 
@@ -192,32 +223,58 @@ http://IP_سرور:پورت/parham-confing
 
 ### ♾️ نامحدود کردن (تمدید خودکار Katabump)
 
-این پنل برای **سرور رایگان کاتابامپ** مناسب است. سرورهای رایگان معمولاً هر حدود **۴ روز** نیاز به **Renew** دارند.  
-با **GitHub Actions** می‌توانید تمدید را خودکار کنید.
+این پنل برای **سرور رایگان کاتابامپ** ساخته شده.  
+سرور رایگان معمولاً حدود هر ۴ روز یک‌بار نیاز به **Renew** دارد. می‌توانید با GitHub Actions خودکارش کنید.
 
-#### کدها برای کپی
-📄 **[Auto-Renew-Guide.txt](Auto-Renew-Guide.txt)**  
-فایل را باز کنید → هر بخش را کپی کنید و در فایل خودش بگذارید (اسم فایل بالای هر کد نوشته شده).
+#### 📄 کدها کجا هستند؟
+این فایل را باز کنید و از آنجا کپی کنید:
 
-#### مراحل سریع
-1. یک **ریپوی جدید** در گیت‌هاب بسازید
-2. **دو فایل** بسازید و کدهای راهنما را داخلشان بچسبانید:
-   - `renew.py` → ریشه ریپو
-   - `.github/workflows/renew.yml`
-3. این **Secrets** را اضافه کنید (Settings → Secrets → Actions):
+**[Auto-Renew-Guide.txt](Auto-Renew-Guide.txt)**
 
-| Secret | چه بگذارید |
-|--------|------------|
-| `KATABUMP_EMAIL` | ایمیل کاتابامپ |
+بالای هر کد، **اسم دقیق فایل** نوشته شده است.
+
+#### 📂 فایل‌هایی که باید بسازید
+
+| اسم فایل | مسیر کامل داخل ریپوی جدید |
+|----------|---------------------------|
+| `renew.py` | `renew.py` |
+| `renew.yml` | `.github/workflows/renew.yml` |
+
+یعنی:
+1. تو ریپوی جدید یک فایل به اسم **renew.py** بسازید
+2. یک پوشه به اسم **.github** بسازید
+3. داخلش پوشه **workflows** بسازید
+4. داخل workflows فایل **renew.yml** را بسازید
+
+#### ✅ مراحل دانه‌دانه
+
+**مرحله ۱ — ریپوی جدید**  
+یک ریپازیتوری جدید در گیت‌هاب بسازید (می‌تواند Private باشد).
+
+**مرحله ۲ — فایل renew.py**  
+فایل `renew.py` را بسازید → فایل Auto-Renew-Guide.txt را باز کنید → کد زیر اسم `renew.py` را کپی کنید → داخل فایل بچسبانید و ذخیره کنید.
+
+**مرحله ۳ — فایل renew.yml**  
+مسیر `.github/workflows/renew.yml` را بسازید → کد مربوط به همان اسم را از راهنما کپی کنید → بچسبانید و ذخیره کنید.
+
+**مرحله ۴ — Secrets (خیلی مهم)**  
+بروید به: **Settings → Secrets and variables → Actions → New repository secret**
+
+این سه تا را یکی‌یکی اضافه کنید:
+
+| نام Secret | چه چیزی بنویسید |
+|------------|------------------|
+| `KATABUMP_EMAIL` | ایمیل ورود کاتابامپ |
 | `KATABUMP_PASSWORD` | رمز کاتابامپ |
-| `SERVER_ID` | آیدی سرور (از آدرس صفحه سرور) |
+| `SERVER_ID` | آیدی سرور از آدرس صفحه سرور در کاتابامپ |
 
-4. یک‌بار **Actions** → **Run workflow** بزنید تا تست شود
+**مرحله ۵ — یک‌بار تست**  
+تب **Actions** را باز کنید → **Parham Confing Auto Renew** را بزنید → **Run workflow**.
 
-بعد از آن هر **۳ روز** خودکار Renew می‌شود.
+اگر درست باشد، بعد از آن هر **۳ روز** خودکار تمدید می‌شود.
 
-#### سایت کاتابامپ
-🌐 **https://control.katabump.com**
+#### 🌐 سایت کاتابامپ
+https://control.katabump.com
 
 ---
 
@@ -243,15 +300,20 @@ http://IP_سرور:پورت/parham-confing
 
 ---
 
-### 📣 کانال تلگرام
+### 📣 تلگرام
 
 <p align="center">
   <a href="https://t.me/parham_ste01">
-    <img src="https://img.shields.io/badge/Telegram-Parham_01-blue?style=for-the-badge&logo=telegram" alt="Telegram">
+    <img src="https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram" alt="Channel">
+  </a>
+  &nbsp;
+  <a href="https://t.me/+SchgZ4s1dGU4N2Y0">
+    <img src="https://img.shields.io/badge/Telegram-Group-blue?style=for-the-badge&logo=telegram" alt="Group">
   </a>
 </p>
 
-**کانال:** [https://t.me/parham_ste01](https://t.me/parham_ste01)
+**کانال:** [https://t.me/parham_ste01](https://t.me/parham_ste01)  
+**گپ:** [https://t.me/+SchgZ4s1dGU4N2Y0](https://t.me/+SchgZ4s1dGU4N2Y0)
 
 ---
 
