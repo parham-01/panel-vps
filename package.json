@@ -1,0 +1,19 @@
+{
+  "name": "parham-confing",
+  "version": "2.0.0",
+  "description": "Parham Confing — glass responsive control panel for Katabump containers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Parham",
+  "license": "MIT"
+}
